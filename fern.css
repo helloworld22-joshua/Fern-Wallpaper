@@ -1,0 +1,14 @@
+body {
+  background-image: url(fern.webp);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  inset: 50% 50%;
+  translate: -50% -50%;
+  border-radius: 5px;
+}/*# sourceMappingURL=fern.css.map */

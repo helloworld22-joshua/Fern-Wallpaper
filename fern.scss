@@ -1,0 +1,16 @@
+body {
+    background: {
+        image: url(fern.webp);
+        position: center;
+        attachment: fixed;
+        repeat: no-repeat;
+        size: cover;
+    }
+}
+
+.logo {
+    position: absolute;
+    inset: 50% 50%;
+    translate: -50% -50%;
+    border-radius: 5px;
+}
