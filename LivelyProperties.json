@@ -1,0 +1,20 @@
+{
+  "logoColor": {
+    "text": "Logo Color",
+    "type": "color",
+    "value": "#0078d4"
+  },
+  "logoSize": {
+    "max": 100,
+    "min": 10,
+    "tick": 5,
+    "text": "Logo Size",
+    "type": "slider",
+    "value": 50
+  },
+  "hideLogo": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Hide Logo"
+  }
+}
