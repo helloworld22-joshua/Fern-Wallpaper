@@ -7,14 +7,14 @@ const logo = document.querySelector("#logo");
 
 function livelyPropertyListener(name, val) {
     switch(name) {
-        case "logoColor":
-            logo.setAttribute("fill", val);
-            break;
         case "logoSize":
             logo.style.scale = val;
             break;   
         case "hideLogo":
-            logo.style.display = none;
-            break;     
+            val ?
+                logo.style.opacity = 0
+            :
+                logo.style.opacity = 1;
+            break;
     }
 }

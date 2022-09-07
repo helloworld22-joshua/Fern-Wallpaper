@@ -11,6 +11,7 @@ body {
         image: url(fern.webp);
         repeat: no-repeat;
         position: center;
+        size: 120%;     // !!Problem with vertical screens
     }
 }
 
@@ -19,4 +20,5 @@ body {
     inset: 50% 50%;
     translate: -50% -50%;
     border-radius: 5px;
+    transition: .3s;
 }
