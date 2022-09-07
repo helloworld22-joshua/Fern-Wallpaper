@@ -3,18 +3,21 @@ document.addEventListener("mousemove", (e) => {
     document.querySelector("#parallax").style.backgroundPosition = x;
 });
 
-const logo = document.querySelector("#logo");
+const logo = document.querySelector("#logo").style;
 
 function livelyPropertyListener(name, val) {
     switch(name) {
         case "logoSize":
-            logo.style.scale = val;
+            logo.scale = val;
             break;   
         case "hideLogo":
             val ?
-                logo.style.opacity = 0
+                logo.opacity = 0
             :
-                logo.style.opacity = 1;
+                logo.opacity = 1;
             break;
+        case "logoBorderRadius":
+            logo.borderRadius = val + "%";
+            break;  
     }
 }

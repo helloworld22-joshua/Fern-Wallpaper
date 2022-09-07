@@ -10,5 +10,12 @@
     "text": "Hide Logo",
     "type": "checkbox",
     "value": false
+  },
+  "logoBorderRadius": {
+    "text": "Logo Border Radius",
+    "type": "slider",
+    "max": 50,
+    "min": 0,
+    "value": 10
   }
 }
