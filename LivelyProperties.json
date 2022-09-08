@@ -2,7 +2,7 @@
   "selectWallpaper": {
     "text": "Select Wallpaper",
     "type": "folderDropdown",
-    "value": "default.jpg",
+    "value": "fern.jpg",
     "filter": "*.jpg|*.png",
     "folder": "wallpapers"
   },
