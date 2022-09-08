@@ -1,8 +1,8 @@
 {
   "AppVersion": "1.0.0.0",
-  "Title": "Fern Parallax",
-  "Thumbnail": "thumbnail.jpg",
-  "Preview": "preview2.gif",
+  "Title": "Parallachs",
+  "Thumbnail": "default.jpg",
+  "Preview": "preview.gif",
   "Desc": "Parallachs allows you to add a parallax effect to your wallpaper and a customizeable logo in the middle.",
   "Author": "Joshua A. (HelloWorld22)",
   "License": "",

@@ -5,7 +5,7 @@ body {
 #parallax {
   width: 100vw;
   height: 100vh;
-  background: url("default.webp") no-repeat center;
+  background: url("default.jpg") no-repeat center;
   background-size: 100%;
 }
 
