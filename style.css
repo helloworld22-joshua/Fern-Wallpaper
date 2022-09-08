@@ -1,15 +1,12 @@
 body {
   margin: 0;
-  overflow: hidden;
 }
 
 #parallax {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-image: url(default.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 120%;
+  background: url("default.webp") no-repeat center;
+  background-size: 100%;
 }
 
 #logo {

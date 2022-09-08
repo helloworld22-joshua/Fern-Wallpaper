@@ -1,12 +1,16 @@
+const parallax = document.querySelector("#parallax").style;
+const logo = document.querySelector("#logo").style;
+
 document.addEventListener("mousemove", (e) => {
     let x = `${e.clientX / window.innerWidth * 100}% ${e.clientY / window.innerHeight * 100}%`;
-    document.querySelector("#parallax").style.backgroundPosition = x;
+    parallax.style.backgroundPosition = x;
 });
-
-const logo = document.querySelector("#logo").style;
 
 function livelyPropertyListener(name, val) {
     switch(name) {
+        case "logoSize":
+            parallax.backgroundSize = val + 100 + "%";
+            break;  
         case "logoSize":
             logo.scale = val;
             break;   
