@@ -8,20 +8,23 @@ document.addEventListener("mousemove", (e) => {
 
 function livelyPropertyListener(name, val) {
     switch(name) {
+        case "selectWallpaper":
+            parallax.backgroundImage = `url("${val.replace("\\", "/")}")`;
+            break;
         case "parallaxStrenght":
             parallax.backgroundSize = val + 100 + "%";
-            break;  
+            break;
         case "logoSize":
-            logo.scale = val;
-            break;   
+            logo.height = val + "%";
+            break;
+        case "logoBorderRadius":
+            logo.borderRadius = val + "%";
+            break;
         case "hideLogo":
             val ?
                 logo.opacity = 0
             :
                 logo.opacity = 1;
             break;
-        case "logoBorderRadius":
-            logo.borderRadius = val + "%";
-            break;  
     }
 }

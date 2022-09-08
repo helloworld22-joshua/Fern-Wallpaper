@@ -5,14 +5,19 @@ body {
 #parallax {
     width: 100vw;
     height: 100vh;
-    background: url("default.jpg") no-repeat center;
-    background-size: 110%;  // Doesn't work on vertical screen
+    background: {
+        image: url("wallpapers/default.jpg");
+        repeat: no-repeat;
+        position: center;
+        size: 110%;     // Doesn't work on vertical screen
+    }
 }
 
 #logo {
     position: absolute;
-    width: 50px;
+    height: 10%;
     inset: 50%;
     translate: -50% -50%;
-    transition: .3s;
+    border-radius: 10%;
+    transition: .1s;
 }

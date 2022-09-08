@@ -1,4 +1,11 @@
 {
+  "selectWallpaper": {
+    "text": "Select Wallpaper",
+    "type": "folderDropdown",
+    "value": "default.jpg",
+    "filter": "*.jpg|*.png|*.mp4",
+    "folder": "wallpapers"
+  },
   "parallaxStrenght": {
     "text": "Parallax Strenght",
     "type": "slider",
@@ -9,14 +16,9 @@
   "logoSize": {
     "text": "Logo Size",
     "type": "slider",
-    "max": 10,
+    "max": 100,
     "min": 1,
-    "value": 2
-  },
-  "hideLogo": {
-    "text": "Hide Logo",
-    "type": "checkbox",
-    "value": false
+    "value": 10
   },
   "logoBorderRadius": {
     "text": "Logo Border Radius",
@@ -24,5 +26,10 @@
     "max": 50,
     "min": 0,
     "value": 10
+  },
+  "hideLogo": {
+    "text": "Hide Logo",
+    "type": "checkbox",
+    "value": false
   }
 }
