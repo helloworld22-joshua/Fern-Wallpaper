@@ -4,5 +4,4 @@ Parallachs allows you to add a parallax effect to your wallpaper and a customize
 
 TODO:
 -Does not work on some screen sizes
--Added mp4 support
--Customizable logo
+-More file types for wallpapers/logos

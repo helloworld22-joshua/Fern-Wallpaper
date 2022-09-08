@@ -3,8 +3,15 @@
     "text": "Select Wallpaper",
     "type": "folderDropdown",
     "value": "default.jpg",
-    "filter": "*.jpg|*.png|*.mp4",
+    "filter": "*.jpg|*.png",
     "folder": "wallpapers"
+  },
+  "selectLogo": {
+    "text": "Select Logo",
+    "type": "folderDropdown",
+    "value": "windows.svg",
+    "filter": "*.png|*.svg",
+    "folder": "logos"
   },
   "parallaxStrenght": {
     "text": "Parallax Strenght",
