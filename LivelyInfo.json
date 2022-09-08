@@ -2,11 +2,10 @@
   "AppVersion": "1.0.0.0",
   "Title": "Parallachs",
   "Thumbnail": "default.jpg",
-  "Preview": "preview.gif",
   "Desc": "Parallachs allows you to add a parallax effect to your wallpaper and a customizeable logo in the middle.",
   "Author": "Joshua A. (HelloWorld22)",
   "License": "",
   "Contact": "https://github.com/helloworld22-joshua/Fern-Wallpaper",
   "Type": 1,
-  "FileName": "fern.html"
+  "FileName": "index.html"
 }

@@ -3,12 +3,12 @@ const logo = document.querySelector("#logo").style;
 
 document.addEventListener("mousemove", (e) => {
     let x = `${e.clientX / window.innerWidth * 100}% ${e.clientY / window.innerHeight * 100}%`;
-    parallax.style.backgroundPosition = x;
+    parallax.backgroundPosition = x;
 });
 
 function livelyPropertyListener(name, val) {
     switch(name) {
-        case "logoSize":
+        case "parallaxStrenght":
             parallax.backgroundSize = val + 100 + "%";
             break;  
         case "logoSize":
