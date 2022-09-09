@@ -10,7 +10,7 @@
     "text": "Select Logo",
     "type": "folderDropdown",
     "value": "windows.svg",
-    "filter": "*.png|*.svg",
+    "filter": "*.png|*.svg|.gif",
     "folder": "logos"
   },
   "parallaxStrenght": {
