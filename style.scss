@@ -9,7 +9,7 @@ body {
         image: url("wallpapers/fern.jpg");
         repeat: no-repeat;
         position: center;
-        size: 110%;     // Doesn't work on vertical. NOTE: 110% auto
+        size: auto 110%;     // Doesn't work on vertical. Crop image or change w/ js;       NOTE: auto 110% = ultra wide; 110% auto phone
     }
 }
 
