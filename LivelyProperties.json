@@ -3,14 +3,14 @@
     "text": "Select Wallpaper",
     "type": "folderDropdown",
     "value": "fern.jpg",
-    "filter": "*.jpg|*.png",
+    "filter": "*.jpg|*.png|*.webp",
     "folder": "wallpapers"
   },
   "selectLogo": {
     "text": "Select Logo",
     "type": "folderDropdown",
     "value": "windows.svg",
-    "filter": "*.png|*.svg|.gif",
+    "filter": "*.png|*.svg|*.gif|*.webp",
     "folder": "logos"
   },
   "parallaxStrenght": {

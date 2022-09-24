@@ -1,11 +1,17 @@
 body {
   margin: 0;
+  overflow: hidden;
 }
 
 #parallax {
+  /* position: absolute;
   width: 100%;
   height: 100vh;
-  background-image: url("wallpapers/fern.jpg");
+  object-fit: cover;
+  object-position: 50% 50%; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("wallpapers/mountain.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 110%;

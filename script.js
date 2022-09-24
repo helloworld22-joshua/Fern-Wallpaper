@@ -3,6 +3,7 @@ const logo = document.querySelector("#logo");
 
 document.addEventListener("mousemove", (e) => {
     let x = `${e.clientX / window.innerWidth * 100}% ${e.clientY / window.innerHeight * 100}%`;
+    /* parallax.style.objectPosition = x; */
     parallax.style.backgroundPosition = x;
 });
 

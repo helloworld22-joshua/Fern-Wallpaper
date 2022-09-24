@@ -1,15 +1,21 @@
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 #parallax {
+    /* position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%; */
     width: 100%;
     height: 100vh;
     background: {
-        image: url("wallpapers/fern.jpg");
+        image: url("wallpapers/mountain.jpg");
         repeat: no-repeat;
         position: center;
-        size: auto 110%;     // Doesn't work on vertical. Crop image or change w/ js;       NOTE: auto 110% = ultra wide; 110% auto phone
+        size: auto 110%;     // Doesn't work on vertical. Crop image or change w/ js;       NOTE: auto 110% = ultra wide; 110% auto = phone
     }
 }
 
